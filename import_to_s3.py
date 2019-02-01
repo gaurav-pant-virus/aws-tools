@@ -2,7 +2,7 @@
 # This script will import directory structure to s3 bucket. Directory
 # structure inside `path` will be imported to s3 bucket root.
 # please update placeholders like PATH_OF_DATA_DIRECTORY, ACCESS_KEY and SECRET_ACCESS_KEY
-# This is fastest way to import millions of small files.
+# This is fastest way to import millions of small files to s3 bucket.
 
 import boto3
 import os
